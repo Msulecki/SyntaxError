@@ -1,0 +1,17 @@
+@import "_variables.scss";
+
+footer {
+  justify-self: flex-end;
+  margin-bottom: 20px;
+
+  .social-links {
+    display: flex;
+
+    a {
+      margin: 0 10px;
+      color: var(--text);
+      opacity: 0.5;
+      font-weight: bold;
+    }
+  }
+}
