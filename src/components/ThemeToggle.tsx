@@ -23,6 +23,7 @@ export const ThemeToggle = (props: ThemeToggleProps) => {
   }, []);
   return (
     <button
+      aria-label="Dark theme toggle"
       onClick={handleDarkTheme}
       className={`theme-toggle ${darkTheme ? "active" : ""}`}
     >
