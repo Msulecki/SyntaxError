@@ -30,12 +30,11 @@
   }
 
   &__arrow {
-    margin-top: 100px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
-    transform: translateY(-100vh);
-    animation: bounce 1s forwards;
-    animation-delay: 1s;
+    transform: translateY(-10vh);
+    animation: bounce-arrow 1s forwards;
     &--svg {
       width: 100px;
       fill: none;
@@ -50,8 +49,8 @@
   }
 }
 
-@keyframes bounce {
+@keyframes bounce-arrow {
   100% {
-    transform: translateY(0);
+    transform: translateY(5vh);
   }
 }
