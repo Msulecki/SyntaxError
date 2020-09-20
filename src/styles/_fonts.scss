@@ -3,6 +3,7 @@
   font-style: normal;
   font-weight: 200;
   src: local(""), url("../fonts/raleway-v17-latin-200.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
@@ -11,4 +12,5 @@
   font-weight: 400;
   src: local("Cutive Mono Regular"), local("CutiveMono-Regular"),
     url("../fonts/cutive-mono-v8-latin-ext_latin-regular.woff2") format("woff2");
+  font-display: swap;
 }
