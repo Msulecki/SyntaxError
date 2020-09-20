@@ -7,12 +7,9 @@ export const Stack = () => {
     <section className="stack">
       <div className="stack__column">
         <div className="stack__header">
-          <h3>Tech</h3>
-        </div>
-      </div>
-      <div className="stack__column">
-        <div className="stack__header">
-          <h3>Tools</h3>
+          <h3>
+            Tech <span>&amp;</span> Tools
+          </h3>
         </div>
         <div className="stack__list">
           <div className="stack__item">
