@@ -6,3 +6,7 @@ export interface ThemeToggleProps {
 export interface StackTagProps {
   children: string;
 }
+
+export interface HeaderProps {
+  title: string;
+}
