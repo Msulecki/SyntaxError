@@ -1,0 +1,48 @@
+@import "_variables.scss";
+
+.header {
+  font-family: "Raleway";
+  position: relative;
+  padding: 0 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+
+  & span {
+    margin: 0 5px;
+    font-size: 1.6rem;
+    color: var(--primary);
+  }
+
+  &__border {
+    position: absolute;
+    border: 2px solid var(--primary);
+    width: 14px;
+    height: 10px;
+
+    &--lt {
+      top: 0;
+      left: 0;
+      border-right: 0;
+      border-bottom: 0;
+    }
+    &--rt {
+      top: 0;
+      right: 0;
+      border-left: 0;
+      border-bottom: 0;
+    }
+    &--ld {
+      bottom: 0;
+      left: 0;
+      border-top: 0;
+      border-right: 0;
+    }
+    &--rd {
+      bottom: 0;
+      right: 0;
+      border-top: 0;
+      border-left: 0;
+    }
+  }
+}
