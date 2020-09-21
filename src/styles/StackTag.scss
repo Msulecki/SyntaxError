@@ -3,36 +3,7 @@
 .tag {
   position: relative;
   padding: 10px 20px;
-
-  &__border {
-    position: absolute;
-    border: 3px solid var(--primary);
-    width: 15%;
-    height: 30%;
-
-    &--lt {
-      top: 0;
-      left: 0;
-      border-right: 0;
-      border-bottom: 0;
-    }
-    &--rt {
-      top: 0;
-      right: 0;
-      border-left: 0;
-      border-bottom: 0;
-    }
-    &--ld {
-      bottom: 0;
-      left: 0;
-      border-top: 0;
-      border-right: 0;
-    }
-    &--rd {
-      bottom: 0;
-      right: 0;
-      border-top: 0;
-      border-left: 0;
-    }
-  }
+  font-size: 1.4rem;
+  box-shadow: var(--inset-1), var(--inset-2);
+  border-radius: 4px;
 }
