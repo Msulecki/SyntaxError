@@ -1,25 +1,18 @@
-import React, { useRef } from "react";
+import React from "react";
+import { Header } from "../Header";
 import "../../styles/pages/About.scss";
 
-export const About = () => {
-  const borderDot = useRef<HTMLDivElement>(null);
-
-  const handleDotAnimation = () => {
-    borderDot.current?.classList.add("about__header-border--animation");
-  };
-
-  return (
-    <section id="about" className="about">
-      <div className="about__content">
-        <div className="about__header">
-          <h2>About</h2>
-          <div
-            ref={borderDot}
-            onClick={handleDotAnimation}
-            className="about__header-border"
-          ></div>
-        </div>
-      </div>
-    </section>
-  );
-};
+export const About = () => (
+  <section id="about" className="about">
+    <div className="about__header">
+      <Header title="About" />
+    </div>
+    <div className="about__content">
+      I'm constantly developing my skills in making user interfaces and web
+      apps, with use of my previous experience in e-commerce projects. I want to
+      help you write timeproof code, with good practises and teamworking. My
+      ultimate goal is to become a software developer who can transform your
+      ideas into top-level, modern code.
+    </div>
+  </section>
+);
