@@ -3,7 +3,7 @@ import { HeaderProps } from "../interfaces/interfaces";
 import "../styles/Header.scss";
 
 export const Header = ({ title }: HeaderProps) => (
-  <h3 className="header">
+  <h2 className="header">
     {title.includes("&")
       ? title.split("&").map((text, index) => (
           <>
@@ -16,5 +16,5 @@ export const Header = ({ title }: HeaderProps) => (
     <div className="header__border header__border--rt"></div>
     <div className="header__border header__border--ld"></div>
     <div className="header__border header__border--rd"></div>
-  </h3>
+  </h2>
 );
