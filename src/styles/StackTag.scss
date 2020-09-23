@@ -2,8 +2,12 @@
 
 .tag {
   position: relative;
-  padding: 10px 20px;
+  padding: 10px;
   font-size: 1.4rem;
   box-shadow: var(--inset-1), var(--inset-2);
   border-radius: 4px;
+
+  &.string {
+    padding: 10px 20px;
+  }
 }
