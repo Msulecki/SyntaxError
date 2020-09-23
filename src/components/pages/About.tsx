@@ -12,7 +12,7 @@ export const About = () => (
       apps, with use of my previous experience in e-commerce projects. I want to
       help you write timeproof code, with good practises and teamworking. My
       ultimate goal is to become a software developer who can transform your
-      ideas into top-level, modern code.
+      ideas into top-level, modern applications.
     </div>
   </section>
 );
