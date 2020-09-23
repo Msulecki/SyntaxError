@@ -1,10 +1,12 @@
+import { ReactChildren, ReactComponentElement } from "react";
+
 export interface ThemeToggleProps {
   darkTheme: Boolean;
   setDarkTheme: Function;
 }
 
 export interface StackTagProps {
-  children: string;
+  children: string | React.ReactNode;
 }
 
 export interface HeaderProps {
