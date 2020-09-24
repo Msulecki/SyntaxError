@@ -1,4 +1,4 @@
-@import "_variables.scss";
+@import '_variables.scss';
 
 .theme-toggle {
   position: fixed;
@@ -28,7 +28,7 @@
     transition-duration: 0.3s;
 
     &::before {
-      content: "🌑";
+      content: '🌑';
     }
   }
 
@@ -42,7 +42,7 @@
 
   &.active > &__indicator {
     &::before {
-      content: "☀️";
+      content: '☀️';
     }
   }
 }

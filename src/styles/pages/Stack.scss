@@ -1,11 +1,11 @@
-@import "../_variables.scss";
+@import '../_variables.scss';
 
 .stack {
   display: flex;
   flex-wrap: wrap;
 
   &__column {
-    font-family: "Raleway";
+    font-family: 'Raleway';
     flex: 1;
     display: block;
     margin: 5px;

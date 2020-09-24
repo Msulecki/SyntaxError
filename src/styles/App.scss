@@ -1,4 +1,4 @@
-@import "_variables.scss";
+@import '_variables.scss';
 
 .app {
   display: flex;
@@ -9,5 +9,5 @@
   min-height: 100vh;
   background-color: var(--bg);
   color: var(--text);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }

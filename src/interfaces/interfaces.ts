@@ -1,14 +1,14 @@
-import { ReactChildren, ReactComponentElement } from "react";
+import { ReactChildren, ReactComponentElement } from 'react'
 
 export interface ThemeToggleProps {
-  darkTheme: Boolean;
-  setDarkTheme: Function;
+  darkTheme: Boolean
+  setDarkTheme: Function
 }
 
 export interface StackTagProps {
-  children: string | React.ReactNode;
+  children: string | React.ReactNode
 }
 
 export interface HeaderProps {
-  title: string;
+  title: string
 }
